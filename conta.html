@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta do usuário - NetClothes | Loja de compra de vestuário online</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+
+    <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html" target="_blank"><img src="images/logo.png"  width="210px"  alt="logotipo do site">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html" target="_blank">Home</a></li>
+                        <li><a href="produtos.html" target="_blank">Produtos</a></li>
+                        <li><a href="sobre-nos.html" target="_blank">Sobre nos</a></li>
+                        <li><a href="contactos.html" target="_blank">Contactos</a></li>
+    
+                    </ul>
+                </nav>
+                <a href="conta.html"><img src="images/conta.png" width="45px"  height="45px"></a>
+
+                <a href="carrinho-compras.html"><img src="images/cart.png" width="30px" height="30px" alt="Icone adicionar ao carinho de compras"></a>
+
+                <img src="images/menu.png" alt="Icone menu" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+ <!------------conta do usuario---------->
+
+ <div class="account-page">
+     <div class="container">
+         <div class="linha">
+             <div class="col-2">
+                 <img src="images/image2.jpg" width="50%">
+             </div>
+             <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="registar()">Registro</span>
+                        <hr id="indicator">
+                    </div>
+    
+                    <form id="Loginform">
+                        <input type="text" placeholder="Insira o Nome de Usuário">
+                        <input type="password" placeholder="Insira o seu Password">
+    
+                        <button type="submit" class="btn">Entrar</button>
+                        <a href="">Esqueci o password</a>
+                    </form>
+    
+                    <form id="Regform">
+                        <input type="text" placeholder="Insira o Nome de Usuário">
+                        <input type="email" placeholder="Insira o nome de Email">
+                        <input type="Password" placeholder="Insira o seu Password">
+    
+                        <button type="submit" class="btn">Registar-se</button>
+                       
+                    </form>
+                </div>
+            </div>
+
+         </div>
+
+     </div>
+
+ </div>
+
+
+<!------footer------>
+
+<div class="footer">
+    <div class="container">
+        <div class="linha">
+            <div class="footer-col-1">
+                <h3 id="title-footer">Baixe o seu Aplicativo</h3>
+                <p id="text-footer">Baixe o aplicativo para Android e ios mobile</p>
+                <div class="app-logo">
+                    <a href="#"><img src="images/play-store.png" alt="Logotipo play-store"></a>
+                    <a href="#"><img src="images/app-store.png" alt="Logotipo App-store"></a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <a href="index.html" target="_blank"><img src="images/logo-white.png" alt="Logotipo"></a>
+                <p> Prezamos pela Eficácia e Preço competitivo | Matéria-prima certificada</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <a href="#" target="_blank"><li>Cupoms</li></a>
+                    <a href="#" target="_blank"><li>Blog Post</li></a>
+                    <a href="#" target="_blank"><li>Política de Devolução</li></a>
+                    <a href="#" target="_blank"><li>Junte-se a filiação</li></a>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Siga-nos</h3>
+                <ul>
+                    <a href="https://pt-br.facebook.com" target="_blank"><li>Facebook</li></a>
+                    <a href="https://twitter.com/i/flow/login" target="_blank"><li>Twitter</li></a>
+                    <a href="https://www.instagram.com" target="_blank"><li>Instagram</li></a>
+                    <a href="https://www.youtube.com/" target="_blank"><li>YouTube</li></a>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - NetClothes Corporation</p>
+    </div>
+    </div>
+    
+    <script>
+        var Loginform = document.getElementById("Loginform");
+        var Regform = document.getElementById("Regform");
+        var indicator = document.getElementById("indicator");
+
+        function registar(){
+            Regform.style.transform = "translateX(0px)";
+            Loginform.style.transform = "translateX(0px)";
+            indicator.style.transform = "translateX(100px)";
+        }
+
+        function login(){
+            Regform.style.transform = "translateX(300px)";
+            Loginform.style.transform = "translateX(300px)";
+            indicator.style.transform = "translateX(0px)";
+        }
+    </script>
+<!-----------js para toggle menu------->
+<script src="script-menutoggle.js"></script>
+
+</body>
+</html>

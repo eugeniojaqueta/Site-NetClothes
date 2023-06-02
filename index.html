@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetClothes | Loja de compra de vestuário online</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <header class="topo">
+    <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html" target="_blank"><img src="images/logo.png"  width="210px"  alt="logotipo do site">
+                    </div></a>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html" target="_blank">Home</a></li>
+                        <li><a href="produtos.html" target="_blank">Produtos</a></li>
+                        <li><a href="sobre-nos.html" target="_blank">Sobre nos</a></li>
+                        <li><a href="contactos.html" target="_blank">Contactos</a></li>
+                    </ul>
+                </nav>
+
+                <a href="conta.html"><img src="images/conta.png" width="45px"  height="45px"></a>
+
+                <a href="carrinho-compras.html"><img src="images/cart.png" width="30px" height="30px" alt="Icone adicionar ao carinho de compras"></a>
+
+                <img src="images/menu.png" alt="Icone menu" class="menu-icon" onclick="menutoggle()">
+            </div>
+        
+        <div class="container">
+        <div class="linha">
+            <div class="col-2">
+                <h1>Dê a sua vida<br>um novo estilo!</h1>
+                <p>Um sonho é apenas um desejo, até o momento em que você <br>começa a atuar sobre ele, e propõe-se a transformá-lo em uma meta.</p>
+                <a href="#cat" class="btn"> Explore agora &#8594;</a>
+
+            </div>
+            <div class="col-2">
+                <img src="images/image2.jpg" alt="Imagem de fundo">
+
+            </div>
+        </div>
+        </div>
+    </div>
+</header>
+
+<!----- Categorias em destaque----->
+
+<section class="categorias" id="cat">
+    <div class="small-container">
+        <div class="linha">
+            <div class="col-3">
+                <img src="images/category-1.jpg" alt="Primeira categoria">
+            </div>
+            <div class="col-3">
+                <img src="images/category-2.jpg" alt="Segunda categoria">
+            </div>
+            <div class="col-3">
+                <img src="images/category-3.jpg" alt="Terceira categoria">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----- Produtos em destaque----->
+<div class="small-container">
+<h2 class="title">Produtos em Destaque</h2>
+<div class="linha">
+    <div class="col-4">
+        <a href="detalhes-produto.html"><img src="images/product-1.jpg" alt="Produto"></a>
+        <a href="detalhes-produto.html"><h4>T-shirt Vermelha</h4></a>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>MZN 600.00</p>
+    </div>
+    <div class="col-4">
+        <img src="images/product_img3.jpg" alt="Produto">
+        <h4>Vestido para Mulher</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>MZN 208.00</p>
+    </div>
+
+    <div class="col-4">
+        <img src="images/product_img12.jpg" alt="Produto">
+        <h4>Blusa preta para Mulher</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>MZN 199.00</p>
+    </div>
+
+    <div class="col-4">
+        <img src="images/product-2.jpg" alt="Produto">
+        <h4>Sapatos pretos da Hrx - unisexo </h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>MZN 555.00</p>
+    </div>
+</div>
+
+<h2 class="title">Produtos Recentes</h2>
+<div class="linha">
+    <div class="col-4">
+        <img src="images/product-5.jpg" alt="Produto">
+        <h4>Sapatos para Homem - cizento/branco</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>MZN 578.00</p>
+    </div>
+    <div class="col-4">
+        <img src="images/product-6.jpg" alt="Produto">
+        <h4>T-shirt Preta - Puma</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>MZN 628.00</p>
+    </div>
+    <div class="col-4">
+        <img src="images/product-7.jpg" alt="Produto">
+        <h4>Conjunto de meias para Homem</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>MZN 209.00</p>
+    </div>
+    <div class="col-4">
+        <img src="images/product-8.jpg" alt="Produto">
+        <h4>Relógio preto para Homem - Fossil</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>MZN 598.00</p>
+    </div>
+</div>
+<div class="linha">
+    <div class="col-4">
+        <img src="images/product-9.jpg" alt="Produto">
+        <h4>Relógio preto/dourado para Homem- RoadSter</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>MZN 609.00</p>
+    </div>
+    <div class="col-4">
+        <img src="images/product-10.jpg" alt="Produto">
+        <h4>Sapatos desportivos Unisexo</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>MZN 490.00</p>
+    </div>
+    <div class="col-4">
+        <img src="images/product-11.jpg" alt="Produto">
+        <h4>Sapatos brancos para atletismo - Unisexo</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>MZN 502.00</p>
+    </div>
+    <div class="col-4">
+        <img src="images/product-12.jpg" alt="Produto">
+        <h4>Aladins pretas - Nike</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>MZN 249.00</p>
+    </div>
+</div>
+</div>
+
+
+<!---------- testemunhos -------->
+<div class="testemunhos">
+    <div class="small-container">
+        <div class="linha">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, tempora quod ratione ipsa animi quisquam perspiciatis cum  </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="images/user-1.png" alt="Usuário">
+                <h3>Sean Parker</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, tempora quod ratione ipsa animi quisquam perspiciatis cum </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="images/user-2.png" alt="Usuário">
+                <h3>Jhon Stark</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, tempora quod ratione ipsa animi quisquam perspiciatis cum  </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="images/user-3.png" alt="Usuário">
+                <h3>Gwen Moralles</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----- Marcas Parceiras ------>
+
+<div class="marcas">
+    <div class="small-container">
+        <div class="linha">
+            <div class="col-5">
+                <img src="images/logo-godrej.png" alt="Logotipo da Godrej">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-oppo.png" alt="Logotipo da Oppo">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-coca-cola.png" alt="Logotipo da Coca-cola">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-paypal.png" alt="Logotipo da Paypal">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-philips.png" alt="Logotipo da Philips">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------footer------>
+
+<div class="footer">
+    <div class="container">
+        <div class="linha">
+            <div class="footer-col-1">
+                <h3 id="title-footer">Baixe o seu Aplicativo</h3>
+                <p id="text-footer">Baixe o aplicativo para Android e ios mobile</p>
+                <div class="app-logo">
+                    <a href="#"><img src="images/play-store.png" alt="Logotipo play-store"></a>
+                    <a href="#"><img src="images/app-store.png" alt="Logotipo App-store"></a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <a href="index.html" target="_blank"><img src="images/logo-white.png" alt="Logotipo"></a>
+                <p> Prezamos pela Eficácia e Preço competitivo | Matéria-prima certificada</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <a href="#" target="_blank"><li>Cupoms</li></a>
+                    <a href="#" target="_blank"><li>Blog Post</li></a>
+                    <a href="#" target="_blank"><li>Política de Devolução</li></a>
+                    <a href="#" target="_blank"><li>Junte-se a filiação</li></a>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Siga-nos</h3>
+                <ul>
+                    <a href="https://pt-br.facebook.com" target="_blank"><li>Facebook</li></a>
+                    <a href="https://twitter.com/i/flow/login" target="_blank"><li>Twitter</li></a>
+                    <a href="https://www.instagram.com" target="_blank"><li>Instagram</li></a>
+                    <a href="https://www.youtube.com/" target="_blank"><li>YouTube</li></a>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - NetClothes Corporation | Dev: Eugénio Jaqueta</p>
+    </div>
+    </div>
+    
+<!-----------js para toggle menu------->
+<script src="script-menutoggle.js"></script>
+
+</body>
+</html>
